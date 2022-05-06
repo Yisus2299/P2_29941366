@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background: rgb(252, 252, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.contenedor{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgb(233, 235, 133);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,1);
+}
+.contenedor .izquierdo
+{
+    position: relative;
+    background: rgb(183, 187, 238);
+    padding: 40px; 
+}
+.perfil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px soil rgba(255,255,255,0.2);
+}
+.perfil .img {
+    position: relative;
+    width:200px ;
+    height: 200px;
+    border-radius: 50% ;
+    overflow: hidden;
+}
+.perfil .img img{
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.perfil h2{
+    color: rgb(243, 243, 243);
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4rem;
+}
+.Datos li{
+    margin-bottom: 15xp;
+    list-style: none;
+    color: white;
+}
+.Datos li b{
+    color:greenyellow;
+} b
+.info{
+   padding-top: 40px; 
+}
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;  
+}
+.info ul{
+    position: relative;
+}
+.info ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.info ul li .icon{
+    display: inline-block;
+    width: 12px;
+    font-size: 15px;
+    color: greenyellow;
+}
+.info ul li span{
+    color: white;
+    font-weight: 300;
+}
+
+.Educacion li{
+margin-bottom: 15xp;
+list-style: none;
+}
+.Educacion h5{
+ color:greenyellow;
+ font-weight: 500;
+ 
+}
+.Educacion h4{
+    color: white;
+    font-weight: 500;
+   }
+.Educacion h4{
+    color: white;
+    font-weight: 300;
+   }
+
+
+.contenedor .derecho
+{
+    position: relative;
+    background: rgb(233, 235, 133);
+    padding: 40px; 
+}
+.Eventos{
+    margin-bottom: 50px;
+}
+.Eventos 
+.title2{
+    color: crimson;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.Eventos li{
+    margin-bottom: 15xp;
+    list-style: none;
+    color: white;
+}
+.Eventos h4{
+    color:crimson;
+ font-weight: 500
+}
+.Eventos h3{
+    color: rgb(14, 13, 13);
+ font-weight: 500
+}
+.Redes{
+    padding-top: 40px; 
+ }
+ .title2{
+     color:crimson;
+     text-transform: uppercase;
+     font-weight: 600;
+     letter-spacing: 1px;
+     margin-bottom: 20px;  
+ }
+ .Redes ul{
+     position: relative;
+ }
+ .Redes ul li{
+     position: relative;
+     list-style: none;
+     margin: 10px 0;
+     cursor: pointer;
+ }
+ .Redes ul li .icon{
+     display: inline-block;
+     width: 40px;
+     font-size: 18px;
+     color: crimson;
+ }
+ 
+ .skill .box{
+     position: relative;
+     width: 100%;
+     display: grid;
+     grid-template-columns: 150px 1fr;
+     justify-content: center;
+     align-items: center;
+ }
+ .skill .box h4 {
+     text-transform: uppercase;
+     color: black;
+     font-weight: 500;
+ }
+ .skill .box  .percent{
+     position: relative;
+     width: 100%;
+     height: 10px;
+     background: rgb(252, 252, 252);
+ }
+ 
+.skill .box  .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: crimson;
+}
+.aficiones ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.aficiones ul li{
+    list-style: none;
+    color: black;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.aficiones ul li .fa{
+    color: crimson;
+    font-size: 18px;
+    width: 20px;
+}
+.cursos .title2{
+    color: crimson;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.cursos li{
+    margin-bottom: 15xp;
+    list-style: none;
+    color: white;
+}
+.cursos h4{
+    color:crimson;
+ font-weight: 500
+}
+.cursos h3{
+    color: rgb(14, 13, 13);
+ font-weight: 500
+}
