@@ -11,7 +11,7 @@ if (err){
 	console.log("db only");
 }
 })
-
+const port = process.env.PORT || 3000;
 const create="CREATE TABLE IF NOT EXISTS contactos(email VARCHAR(20),nombre VARCHAR(20), comentario TEXT,fecha DATATIME,ip TEXT);";
 
 bd.run(create,err=>{
