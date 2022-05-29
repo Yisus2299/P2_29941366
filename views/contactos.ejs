@@ -16,16 +16,18 @@
             <th>Comentario</th>
             <th>Fecha-Hora</th>
             <th>IP</th>
+            <th>country</th>
           </tr>
         </thead>
         <tbody>
-        <% for (const obtener of tarea) { %>
+        <% for (const obtener of datos) { %>
           <tr>
-            <th><%= obtener.nombre%></th>
+            <th><%= obtener.name%></th>
             <td><%= obtener.email%></td>
             <td><%= obtener.comentario%></td>
             <td><%= obtener.fecha%></td>
             <td><%= obtener.ip%></td>
+            <td><%= obtener.country%></td>
           </tr>
           <% } %>
         </tbody>
