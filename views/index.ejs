@@ -46,7 +46,7 @@
            
            <div class="perfil">
             <div class="img">
-                 <img src ="/img/IMG_0213.JPG"  alt="esta imagen no se puede procesar">
+                 <img src ="img/profilepic.jpg"  alt="esta imagen no se puede procesar">
             </div>
             <h2>Jesus Ziegler</h2>
         </div>
@@ -178,7 +178,7 @@
 <body class="body2">
 
         <div class="contact">
-            <h1 class="logo">Contact <span>Us</span></h1>
+            <h1 class="logo">Deja un Comentario</h1>
             
             <form action="/comentario" method="post" id="verifyForm">
                 <ul>
@@ -186,19 +186,27 @@
                       <label for="name">Nombre:</label>
                       <input type="text" id="name" name="user_name">
                     </li>
+                  
+                   
+                   
+                   </ul>
+
+                   <ul>
                     <li>
-                      <label for="mail">Email:</label>
-                      <input type="email" id="mail" name="user_mail">
-                    </li>
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="user_mail">
+                      </li>
+                   </ul>
+                   <ul>
                     <li>
-                      <label for="msg">Comentario:</label>
-                      <textarea id="msg" name="user_message"></textarea>
-                    </li>
+                        <label for="msg">Comentario:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                      </li>
                    </ul>
                    <button type="submit">Enviar</button>
             </form>
             
-            <a href="/contactos">Comentarios</a>
+            <a  style='color:red' href="/contactos">Comentarios</a>
         </div> 
 </body>
 
